@@ -13,22 +13,26 @@ export function EmptyState() {
         </h2>
         
         <p className="text-gray-600 mb-6 leading-relaxed">
-          Describe the email you want to create, and I'll help you craft professional, 
-          clear, and effective messages in seconds.
+          Effortlessly craft professional, clear, and effective emails in seconds with our AI Email Assistant.
+          </p>
+        
+        <p className="text-gray-600 mb-6 leading-relaxed">
+          Simply describe your message, whether it's for sales, customer support, or marketing,
+          and let AI generate the perfect draft.
         </p>
         
-        <div className="grid grid-cols-1 gap-3 text-sm">
-          <div className="flex items-center space-x-3 text-gray-500">
+        <div className="grid grid-cols-1 gap-2 text-sm">
+          <div className="flex items-center space-x-1 text-gray-500">
             <MessageSquare className="w-4 h-4 text-blue-500" />
-            <span>Conversational interface for natural email requests</span>
+            <span>Intuitive conversational interface for natural and efficient email requests</span>
           </div>
           <div className="flex items-center space-x-3 text-gray-500">
             <Sparkles className="w-4 h-4 text-indigo-500" />
-            <span>AI-powered content optimization and generation</span>
+            <span>Advanced AI-powered content optimization and intelligent email generation</span>
           </div>
           <div className="flex items-center space-x-3 text-gray-500">
             <Mail className="w-4 h-4 text-purple-500" />
-            <span>Professional formatting and tone adjustment</span>
+            <span>Automated professional formatting and adaptable tone adjustment for any audience</span>
           </div>
         </div>
       </div>
