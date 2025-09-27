@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, Sparkles } from 'lucide-react';
+import { Sparkles } from 'lucide-react';
 import { Header } from './components/Header';
 import { Settings } from './components/Settings';
 import { MessageBubble } from './components/MessageBubble';

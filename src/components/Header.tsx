@@ -1,4 +1,4 @@
-import { Settings2, Mail, Sparkle, Sparkles } from 'lucide-react';
+import { Settings2, Sparkles } from 'lucide-react';
 import { Settings } from '../types';
 
 interface HeaderProps {

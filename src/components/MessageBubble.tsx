@@ -1,4 +1,4 @@
-import { User, Mail, Copy, Check, Sparkles, BotIcon } from 'lucide-react';
+import { User, Copy, Check, BotIcon } from 'lucide-react';
 import { Message } from '../types';
 import { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
