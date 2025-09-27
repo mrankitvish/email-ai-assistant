@@ -108,11 +108,3 @@ Once the application is running, you can:
 ├── tailwind.config.js      # Tailwind CSS configuration
 └── postcss.config.js       # PostCSS configuration
 ```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-[Specify your license here, e.g., MIT License]
