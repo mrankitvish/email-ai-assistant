@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail } from 'lucide-react';
+import { Mail, Sparkles } from 'lucide-react';
 import { Header } from './components/Header';
 import { Settings } from './components/Settings';
 import { MessageBubble } from './components/MessageBubble';
@@ -18,7 +18,7 @@ function App() {
     provider: 'pollinations',
     openaiApiKey: '',
     openaiBaseUrl: '',
-    model: 'gpt-3.5-turbo',
+    model: 'mistral',
     availableModels: []
   });
 
@@ -86,7 +86,7 @@ function App() {
                 <div className="flex justify-start mb-6">
                   <div className="flex items-start space-x-3 max-w-3xl">
                     <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 text-white flex items-center justify-center">
-                      <Mail className="w-4 h-4" />
+                      <Sparkles className="w-4 h-4" />
                     </div>
                     <div className="bg-white border border-gray-200 rounded-2xl px-4 py-3 shadow-sm">
                       <div className="flex space-x-1">

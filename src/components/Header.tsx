@@ -1,4 +1,4 @@
-import { Settings2, Mail } from 'lucide-react';
+import { Settings2, Mail, Sparkle, Sparkles } from 'lucide-react';
 import { Settings } from '../types';
 
 interface HeaderProps {
@@ -12,13 +12,10 @@ export function Header({ onSettingsClick, settings }: HeaderProps) {
       <div className="max-w-4xl mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-3">
           <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center">
-            <Mail className="w-5 h-5 text-white" />
+            <Sparkles className="w-5 h-5 text-white" />
           </div>
           <div>
             <h1 className="text-xl font-semibold text-gray-900">AI Email Assistant</h1>
-            <p className="text-sm text-gray-500">
-              Using {settings.provider === 'openai' ? 'OpenAI Compatible' : 'Pollinations.ai'}
-            </p>
           </div>
         </div>
         

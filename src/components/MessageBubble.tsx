@@ -1,4 +1,4 @@
-import { User, Mail, Copy, Check } from 'lucide-react';
+import { User, Mail, Copy, Check, Sparkles, BotIcon } from 'lucide-react';
 import { Message } from '../types';
 import { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
@@ -29,7 +29,7 @@ export function MessageBubble({ message }: MessageBubbleProps) {
             ? 'bg-blue-600 text-white' 
             : 'bg-gradient-to-br from-indigo-500 to-purple-600 text-white'
         }`}>
-          {isUser ? <User className="w-4 h-4" /> : <Mail className="w-4 h-4" />}
+          {isUser ? <User className="w-4 h-4" /> : <BotIcon className="w-4 h-4" />}
         </div>
         
         <div className={`relative group ${

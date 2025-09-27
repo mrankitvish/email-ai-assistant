@@ -35,7 +35,7 @@ export class LLMService {
     } catch (error) {
       console.error('Error fetching Pollinations models:', error);
       // Return fallback models if API fails
-      const fallbackModels = ['gpt-3.5-turbo', 'gpt-4', 'gpt-4-turbo'];
+      const fallbackModels = ['mistral'];
       this.pollinationsModels = fallbackModels;
       return fallbackModels;
     }
@@ -138,7 +138,7 @@ Format your response as a complete email including:
       return result.choices?.[0]?.message?.content || 'No response generated';
     } catch (error) {
       console.error('Pollinations API error:', error);
-      throw new Error('Failed to generate email with Pollinations.ai. Please try again.');
+      throw new Error('Failed to generate email with Pollinations.ai. Please try again or select different model from settings.');
     }
   }
 
